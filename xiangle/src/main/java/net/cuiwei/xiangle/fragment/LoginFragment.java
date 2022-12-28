@@ -74,6 +74,7 @@ public class LoginFragment extends Fragment implements OnDetailListener<User>, V
     }
 
     @Override
+
     public void onError() {
         Toast.makeText(getContext(), "出错了哦！", Toast.LENGTH_SHORT).show();
     }
